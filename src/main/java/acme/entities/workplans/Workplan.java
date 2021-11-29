@@ -13,7 +13,7 @@ import javax.validation.constraints.Future;
 import javax.validation.constraints.NotNull;
 
 import acme.entities.roles.Manag;
-import acme.entities.tasks.Task;
+import acme.entities.duties.Dutie;
 import acme.framework.entities.DomainEntity;
 import lombok.Getter;
 import lombok.Setter;
@@ -61,5 +61,5 @@ public class Workplan extends DomainEntity {
 	
 	@Valid
 	@ManyToMany
-	protected List<Task> task;
+	protected List<Dutie> dutie;
 }

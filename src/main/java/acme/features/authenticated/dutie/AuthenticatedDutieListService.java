@@ -1,4 +1,4 @@
-package acme.features.authenticated.task;
+package acme.features.authenticated.dutie;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.tasks.Task;
+import acme.entities.duties.Dutie;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
 import acme.framework.entities.Authenticated;
@@ -17,19 +17,19 @@ import acme.framework.services.AbstractListService;
 
 
 @Service
-public class AuthenticatedTaskListService implements AbstractListService<Authenticated, Task>{
+public class AuthenticatedDutieListService implements AbstractListService<Authenticated, Dutie>{
 
 	@Autowired
-	AuthenticatedTaskRepository repository;
+	AuthenticatedDutieRepository repository;
 	@Override
-	public boolean authorise(final Request<Task> request) {
+	public boolean authorise(final Request<Dutie> request) {
 		assert request != null;
 
 		return true;
 	}
 
 	@Override
-	public void unbind(final Request<Task> request, final Task entity, final Model model) {
+	public void unbind(final Request<Dutie> request, final Dutie entity, final Model model) {
 		assert request != null;
 		assert entity != null;
 		assert model != null;
@@ -39,16 +39,16 @@ public class AuthenticatedTaskListService implements AbstractListService<Authent
 	}
 
 	@Override
-	public Collection<Task> findMany(final Request<Task> request) {
+	public Collection<Dutie> findMany(final Request<Dutie> request) {
 assert request != null;
 		
-		final Collection <Task>  result= this.repository.findTask();
-		List <Task>  res = new ArrayList<>();
+		final Collection <Dutie>  result= this.repository.findDutie();
+		List <Dutie>  res = new ArrayList<>();
 		
-		for(final Task t:result) {
+		for(final Dutie t:result) {
 			if (t.isFinished()) res.add(t);
 		}
-		res = res.stream().sorted(Comparator.comparingInt(Task::getTime)).collect(Collectors.toList());
+		res = res.stream().sorted(Comparator.comparingInt(Dutie::getTime)).collect(Collectors.toList());
 		
 		return res;
 	}

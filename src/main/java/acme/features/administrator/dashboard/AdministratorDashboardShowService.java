@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import acme.datatypes.Workload;
-import acme.entities.tasks.Task;
+import acme.entities.duties.Dutie;
 import acme.forms.Dashboard;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
@@ -34,8 +34,8 @@ public class AdministratorDashboardShowService implements AbstractShowService<Ad
 		assert request != null;
 		assert entity != null;
 		assert model != null;
-		request.unbind(entity, model, "numberOfPublicTask", "numberOfPrivateTask", "numberOfFinishTask",
-			"numberOfNotFinishTask", "minimumWorkload", "maximumWorkload", "averageWorkload", "deviationWorkload",
+		request.unbind(entity, model, "numberOfPublicDutie", "numberOfPrivateDutie", "numberOfFinishDutie",
+			"numberOfNotFinishDutie", "minimumWorkload", "maximumWorkload", "averageWorkload", "deviationWorkload",
 			"averageExecutionPeriods", "maximumExecutionPeriods" ,"minimumExecutionPeriods" , "deviationExecutionPeriods");
 	}
 
@@ -45,13 +45,13 @@ public class AdministratorDashboardShowService implements AbstractShowService<Ad
 		
 		Dashboard result;
 		
-		final Collection<Task> tasks = this.repository.findTasks();
+		final Collection<Dutie> duties = this.repository.findDuties();
 		final Collection<Workload> workloads= this.repository.findWorkloads();
 		final List<Integer> workloadList = workloads.stream().map(Workload::getTime).sorted().collect(Collectors.toList());
-		final Integer numberOfPublicTask;
-		final Integer numberOfPrivateTask;
-		Integer numberOfFinishTask = 0;
-		final Integer numberOfNotFinishTask;
+		final Integer numberOfPublicDutie;
+		final Integer numberOfPrivateDutie;
+		Integer numberOfFinishDutie = 0;
+		final Integer numberOfNotFinishDutie;
 		Workload minWorkload;
 		Workload maxWorkload;
 		final Float averageWorkload;
@@ -61,14 +61,14 @@ public class AdministratorDashboardShowService implements AbstractShowService<Ad
 		Double minimumExecutionPeriods = 0.0;
 		Double deviationExecutionPeriods = 0.0;
 		
-		numberOfPublicTask = this.repository.numberOfPublicTask();
-		numberOfPrivateTask = this.repository.numberOfPrivateTask();
-		final Collection <Task>  ts= this.repository.findTasks();
-		for(final Task t:ts) {
-			if (t.isFinished()) numberOfFinishTask++;
+		numberOfPublicDutie = this.repository.numberOfPublicDutie();
+		numberOfPrivateDutie = this.repository.numberOfPrivateDutie();
+		final Collection <Dutie>  ts= this.repository.findDuties();
+		for(final Dutie t:ts) {
+			if (t.isFinished()) numberOfFinishDutie;
 		}
 		
-		numberOfNotFinishTask =  this.repository.findTasks().size()-numberOfFinishTask;
+		numberOfNotFinishDutie =  this.repository.findDuties().size()-numberOfFinishDutie;
 				
 		averageExecutionPeriods = 0.0;
 		maximumExecutionPeriods = 0.0;
@@ -84,14 +84,14 @@ public class AdministratorDashboardShowService implements AbstractShowService<Ad
 		if(!workloads.isEmpty()) maxWorkload=AdministratorDashboardShowService.minutesToWorkload(workloadList.get(workloadList.size()-1));
 		
 		averageWorkload=AdministratorDashboardShowService.minutesToHourDouble(workloads.stream().collect(Collectors.averagingInt(Workload::getTime)));
-		if(!tasks.isEmpty()) {
-		for (final Task t: tasks) {
+		if(!duties.isEmpty()) {
+		for (final Dutie t: duties) {
 			final Double duracion = t.getExecutionPeriod();
 			averageExecutionPeriods = averageExecutionPeriods + duracion;
 		}
-		averageExecutionPeriods = averageExecutionPeriods / tasks.size();
+		averageExecutionPeriods = averageExecutionPeriods / duties.size();
 		
-		for (final Task t: tasks) {
+		for (final Dutie t: duties) {
 			final Double duracion = t.getExecutionPeriod();
 			//Calculamos el maximo en los periodos de ejecución
 			if (duracion>maximumExecutionPeriods) {
@@ -100,7 +100,7 @@ public class AdministratorDashboardShowService implements AbstractShowService<Ad
 		}
 		//Partimos del maximo y vamos decreciendo para encontrar el minimo
 		minimumExecutionPeriods = maximumExecutionPeriods;
-		for (final Task t: tasks) {
+		for (final Dutie t: duties) {
 			final Double duracion =t.getExecutionPeriod();
 			//Calculamos el maximo en los periodos de ejecución
 			if (duracion<minimumExecutionPeriods) {
@@ -109,7 +109,7 @@ public class AdministratorDashboardShowService implements AbstractShowService<Ad
 		}
 		
 		final List<Double> executionPeriodsList = new ArrayList<Double>();
-		for (final Task t: tasks) {
+		for (final Dutie t: duties) {
 			final Double duracion = t.getExecutionPeriod();
 			executionPeriodsList.add(duracion);
 		}
@@ -120,11 +120,11 @@ public class AdministratorDashboardShowService implements AbstractShowService<Ad
 		
 		result = new Dashboard();
 		
-		result.setNumberOfPublicTask(numberOfPublicTask);
-		result.setNumberOfPrivateTask(numberOfPrivateTask);
+		result.setNumberOfPublicDutie(numberOfPublicDutie);
+		result.setNumberOfPrivateDutie(numberOfPrivateDutie);
 		
-		result.setNumberOfFinishTask(numberOfFinishTask);
-		result.setNumberOfNotFinishTask(numberOfNotFinishTask);
+		result.setNumberOfFinishDutie(numberOfFinishDutie);
+		result.setNumberOfNotFinishDutie(numberOfNotFinishDutie);
 		
 		result.setMinimumWorkload(minWorkload);
 		result.setMaximumWorkload(maxWorkload);

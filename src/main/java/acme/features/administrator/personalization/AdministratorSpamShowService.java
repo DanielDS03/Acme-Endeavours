@@ -50,7 +50,7 @@ public class AdministratorSpamShowService implements AbstractShowService<Adminis
 		assert model != null;
 
 		request.unbind(entity, model, "censoredWords");
-		model.setAttribute("taskId", entity.getId());		
+		model.setAttribute("dutieId", entity.getId());		
 	}
 
 }

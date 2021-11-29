@@ -1,7 +1,5 @@
-package acme.entities.tasks;
-
+package acme.entities.duties;
 import java.util.Date;
-
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
 import javax.persistence.Temporal;
@@ -22,7 +20,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class Task extends DomainEntity {
+public class Dutie extends DomainEntity {
 	
 	// Serialisation identifier -----------------------------------------------
 

@@ -1,4 +1,4 @@
-package acme.features.anonymous.task;
+package acme.features.anonymous.dutie;
 
 import java.util.Collection;
 import java.util.Comparator;
@@ -7,27 +7,27 @@ import java.util.stream.Collectors;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.tasks.Task;
+import acme.entities.duties.Dutie;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
 import acme.framework.entities.Anonymous;
 import acme.framework.services.AbstractListService;
 
 @Service
-public class AnonymousTaskListService implements AbstractListService<Anonymous, Task> {
+public class AnonymousDutieListService implements AbstractListService<Anonymous, Dutie> {
 
 	@Autowired
-	AnonymousTaskRepository repository;
+	AnonymousDutieRepository repository;
 	
 	@Override
-	public boolean authorise(final Request<Task> request) {
+	public boolean authorise(final Request<Dutie> request) {
 		assert request != null;
 
 		return true;
 	}
 
 	@Override
-	public void unbind(final Request<Task> request, final Task entity, final Model model) {
+	public void unbind(final Request<Dutie> request, final Dutie entity, final Model model) {
 		assert request != null;
 		assert entity != null;
 		assert model != null;
@@ -37,12 +37,12 @@ public class AnonymousTaskListService implements AbstractListService<Anonymous, 
 	}
 
 	@Override
-	public Collection<Task> findMany(final Request<Task> request) {
+	public Collection<Dutie> findMany(final Request<Dutie> request) {
 		assert request != null;
 		
-		Collection <Task>  result;
+		Collection <Dutie>  result;
 		
-		result = this.repository.findTask().stream().filter(t->!t.isFinished()).sorted(Comparator.comparingInt(Task::getTime)).collect(Collectors.toList());
+		result = this.repository.findDutie().stream().filter(t->!t.isFinished()).sorted(Comparator.comparingInt(Dutie::getTime)).collect(Collectors.toList());
 
 		return result;
 	}

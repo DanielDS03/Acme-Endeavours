@@ -18,11 +18,11 @@ public class Dashboard implements Serializable{
 	Double minimumExecutionPeriods;
 	Double maximumExecutionPeriods;
 
-	Integer numberOfPublicTask;
-	Integer numberOfPrivateTask;
+	Integer numberOfPublicDutie;
+	Integer numberOfPrivateDutie;
 	
-	Integer numberOfFinishTask;
-	Integer numberOfNotFinishTask;
+	Integer numberOfFinishDutie;
+	Integer numberOfNotFinishDutie;
 	
 	Workload minimumWorkload;
 	Workload maximumWorkload;
