@@ -73,11 +73,11 @@
 				action="http://www.example.com/" />
 		</acme:menu-option>
 
-		<acme:menu-option code="master.menu.manag" access="hasRole('Manag')">
-			<acme:menu-suboption code="master.menu.manag.task"
-				action="/manag/task/list" />
-			<acme:menu-suboption code="master.menu.manag.task.create"
-				action="/manag/task/create" />
+		<acme:menu-option code="master.menu.officer" access="hasRole('Officer')">
+			<acme:menu-suboption code="master.menu.officer.task"
+				action="/officer/task/list" />
+			<acme:menu-suboption code="master.menu.officer.task.create"
+				action="/officer/task/create" />
 		</acme:menu-option>
 
 	</acme:menu-left>
@@ -102,8 +102,8 @@
 				access="!hasRole('Consumer')" />
 			<acme:menu-suboption code="master.menu.user-account.consumer"
 				action="/authenticated/consumer/update" access="hasRole('Consumer')" />
-			<acme:menu-suboption code="master.menu.user-account.become-manag"
-				action="/authenticated/manag/create" access="!hasRole('Manag')" />
+			<acme:menu-suboption code="master.menu.user-account.become-officer"
+				action="/authenticated/officer/create" access="!hasRole('Officer')" />
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.sign-out"
