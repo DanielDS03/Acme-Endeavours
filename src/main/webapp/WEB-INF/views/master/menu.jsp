@@ -26,8 +26,8 @@
 				action="/anonymous/shout/list" />
 			<acme:menu-suboption code="master.menu.anonymous.shout"
 				action="/anonymous/shout/create" />
-			<acme:menu-suboption code="master.menu.anonymous.task"
-				action="/anonymous/task/list" />
+			<acme:menu-suboption code="master.menu.anonymous.duty"
+				action="/anonymous/duty/list" />
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator"
@@ -57,8 +57,8 @@
 
 		<acme:menu-option code="master.menu.authenticated"
 			access="isAuthenticated()">
-			<acme:menu-suboption code="master.menu.task"
-				action="/authenticated/task/list" />
+			<acme:menu-suboption code="master.menu.duty"
+				action="/authenticated/duty/list" />
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.provider"
@@ -74,10 +74,10 @@
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.officer" access="hasRole('Officer')">
-			<acme:menu-suboption code="master.menu.officer.task"
-				action="/officer/task/list" />
-			<acme:menu-suboption code="master.menu.officer.task.create"
-				action="/officer/task/create" />
+			<acme:menu-suboption code="master.menu.officer.duty"
+				action="/officer/duty/list" />
+			<acme:menu-suboption code="master.menu.officer.duty.create"
+				action="/officer/duty/create" />
 		</acme:menu-option>
 
 	</acme:menu-left>

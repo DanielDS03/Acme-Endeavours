@@ -1,0 +1,36 @@
+# i18n_en.messages
+#
+# Copyright (c) 2012-2021 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+officer.duty.list.label.title = Title
+officer.duty.list.label.description = Description
+officer.duty.list.label.start = Start
+officer.duty.list.label.end = End
+officer.duty.list.label.workload = Workload
+officer.duty.error.workload =Workload is not correct
+officer.duty.error.start =Start must be before end
+
+officer.duty.label.title = Title
+officer.duty.label.description = Description
+officer.duty.start = Start
+officer.duty.end = End
+officer.duty.label.workload = Workload
+officer.duty.label.link=Link
+
+officer.duty.label.publica=Public
+officer.duty.button.return=Return
+officer.duty.form.button.create = Create
+officer.duty.button.delete= Delete
+officer.duty.button.update=Update
+officer.duty.button.publish=Publish
+
+default.error.workload.zero=The workload must not be 0.00, it must be at least 0.01
+
+officer.duty.form.error.title= The title has spam words
+officer.duty.form.error.description= The description has spam words

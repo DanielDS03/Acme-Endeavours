@@ -9,21 +9,21 @@
 # they accept any liabilities with respect to them.
 
 administrator.dashboard.form.title.general-indicators = General indicators
-administrator.dashboard.form.label.number-of-public-task =  Number of public tasks
+administrator.dashboard.form.label.number-of-public-duty =  Number of public duties
 administrator.dashboard.form.title.application-statuses = Application statuses
-administrator.dashboard.form.label.number-of-private-task= Number of private tasks
-administrator.dashboard.form.label.number-of-finish-task = Number of finished tasks
-administrator.dashboard.form.label.number-of-not-finish-task= Number of not finished tasks
-administrator.dashboard.form.label.minimum-workload= Task minimum workload
-administrator.dashboard.form.label.maximum-workload= Task maximum workload
-administrator.dashboard.form.label.average-workload= Task average workload
-administrator.dashboard.form.label.deviation-workload= Task deviation workload
-administrator.dashboard.form.label.average-execution-periods= Task average execution periods
-administrator.dashboard.form.label.maximum-execution-periods= Task maximum execution periods	
-administrator.dashboard.form.label.minimum-execution-periods= Task minimum execution periods	
-administrator.dashboard.form.label.deviation-execution-periods= Task deviation execution periods	
+administrator.dashboard.form.label.number-of-private-duty= Number of private duties
+administrator.dashboard.form.label.number-of-finish-duty = Number of finished duties
+administrator.dashboard.form.label.number-of-not-finish-duty= Number of not finished duties
+administrator.dashboard.form.label.minimum-workload= Duty minimum workload
+administrator.dashboard.form.label.maximum-workload= Duty maximum workload
+administrator.dashboard.form.label.average-workload= Duty average workload
+administrator.dashboard.form.label.deviation-workload= Duty deviation workload
+administrator.dashboard.form.label.average-execution-periods= Duty average execution periods
+administrator.dashboard.form.label.maximum-execution-periods= Duty maximum execution periods	
+administrator.dashboard.form.label.minimum-execution-periods= Duty minimum execution periods	
+administrator.dashboard.form.label.deviation-execution-periods= Duty deviation execution periods	
 
-administrator.dashboard.form.graph.publicTask=Public and private tasks
-administrator.dashboard.form.graph.finishTask=Finish and not finish tasks
+administrator.dashboard.form.graph.publicDuty=Public and private duties
+administrator.dashboard.form.graph.finishDuty=Finish and not finish duties
 administrator.dashboard.form.graph.minimumandmaximumWorkload= Minimum and maximum Workload
 administrator.dashboard.form.graph.averageanddeviationWorkload= Average Workload and deviation Workload

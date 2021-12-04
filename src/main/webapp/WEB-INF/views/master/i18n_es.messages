@@ -25,7 +25,7 @@ master.menu.home = Inicio
 master.menu.sign-up = Registrarse
 master.menu.sign-in = Entrar
 master.menu.sign-out = Salir
-master.menu.task = Tareas
+master.menu.duty = Deberes
 master.menu.authenticated= Registrado
 
 # master.menu.anonymous #######################################################
@@ -34,7 +34,7 @@ master.menu.anonymous = Anónimo
 master.menu.anonymous.favourite-link = Enlace favorito
 master.menu.anonymous.shout = Gritar
 master.menu.anonymous.shout.list= Listar gritos
-master.menu.anonymous.task = Tareas
+master.menu.anonymous.duty = Deberes
 
 # master.menu.administrator ###################################################
 
@@ -61,8 +61,8 @@ master.menu.consumer.favourite-link = Enlace favorito
 # master.menu.officer ##########################################################
 
 master.menu.officer = Officer
-master.menu.officer.task = Mis tareas
-master.menu.officer.task.create = Crear Tarea
+master.menu.officer.duty = Mis Deberes
+master.menu.officer.duty.create = Crear Deber
 master.menu.workplan = Plan de trabajo
 master.menu.workplan.list = Listar plan de trabajo
 master.menu.workplan.create = Crear plan de trabajo

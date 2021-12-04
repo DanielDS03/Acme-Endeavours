@@ -1,0 +1,34 @@
+# i18n_en.messages
+#
+# Copyright (c) 2012-2021 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+officer.duty.list.label.title = Titulo
+officer.duty.list.label.description = Descripcion
+officer.duty.list.label.start = Comienzo
+officer.duty.list.label.end = Finalizacion
+officer.duty.list.label.workload = Carga de trabajo
+officer.duty.error.workload =La carga de trabajo no es correcta
+officer.duty.error.start=La fecha final es anterior a la de comienzo
+
+officer.duty.label.title = Titulo
+officer.duty.label.description = Descripcion
+officer.duty.start = Fecha de inicio
+officer.duty.end = Fecha de fin
+officer.duty.label.workload = Carga de trabajo
+
+officer.duty.label.publica=Publica
+officer.duty.button.return= Volver
+officer.duty.form.button.create = Crear
+officer.duty.button.delete=Borrar
+officer.duty.button.update=Actualizar
+officer.duty.button.publish=Publicar
+default.error.workload.zero= La carga de trabajo no puede ser 0.00, tiene que ser al menos 0.01
+
+officer.duty.form.error.title= El título contiene demasiadas palabras de spam
+officer.duty.form.error.description= La descripción contiene demasiadas palabras de spam

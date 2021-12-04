@@ -12,8 +12,8 @@ import javax.validation.Valid;
 import javax.validation.constraints.Future;
 import javax.validation.constraints.NotNull;
 
+import acme.entities.duties.Duty;
 import acme.entities.roles.Officer;
-import acme.entities.tasks.Task;
 import acme.framework.entities.DomainEntity;
 import lombok.Getter;
 import lombok.Setter;
@@ -61,5 +61,5 @@ public class Workplan extends DomainEntity {
 	
 	@Valid
 	@ManyToMany
-	protected List<Task> task;
+	protected List<Duty> duty;
 }

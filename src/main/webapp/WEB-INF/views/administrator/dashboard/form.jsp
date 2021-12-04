@@ -10,17 +10,17 @@
 
 <acme:form readonly="true">
 	<acme:form-double
-		code="administrator.dashboard.form.label.number-of-public-task"
-		path="numberOfPublicTask" />
+		code="administrator.dashboard.form.label.number-of-public-duty"
+		path="numberOfPublicDuty" />
 	<acme:form-double
-		code="administrator.dashboard.form.label.number-of-private-task"
-		path="numberOfPrivateTask" />
+		code="administrator.dashboard.form.label.number-of-private-duty"
+		path="numberOfPrivateDuty" />
 	<acme:form-double
-		code="administrator.dashboard.form.label.number-of-finish-task"
-		path="numberOfFinishTask" />
+		code="administrator.dashboard.form.label.number-of-finish-duty"
+		path="numberOfFinishDuty" />
 	<acme:form-integer
-		code="administrator.dashboard.form.label.number-of-not-finish-task"
-		path="numberOfNotFinishTask" />
+		code="administrator.dashboard.form.label.number-of-not-finish-duty"
+		path="numberOfNotFinishDuty" />
 	<acme:form-integer
 		code="administrator.dashboard.form.label.minimum-workload"
 		path="minimumWorkload" />
