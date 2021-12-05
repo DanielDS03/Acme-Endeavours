@@ -191,7 +191,7 @@
 	</bean>
 
 	<bean id="shout15" class="acme.entities.shouts.Shout">
-		<property name="moment" value="2021/01/11 01:00" />
+		<property name="moment" value="2021/12/05 01:00" />
 		<property name="author" value="Jadon Sancho" />
 		<property name="text"
 			value="If opportunity doesn’t knock, build a door" />
@@ -199,7 +199,7 @@
 	</bean>
 
 	<bean id="shout16" class="acme.entities.shouts.Shout">
-		<property name="moment" value="2021/09/04 03:00" />
+		<property name="moment" value="2021/12/04 03:00" />
 		<property name="author" value="Dele Alli" />
 		<property name="text"
 			value="The dreamers are the saviors of the world" />
@@ -207,14 +207,14 @@
 	</bean>
 
 	<bean id="shout17" class="acme.entities.shouts.Shout">
-		<property name="moment" value="2021/09/04 00:00" />
+		<property name="moment" value="2021/12/04 00:00" />
 		<property name="author" value="Jules Odonkor" />
 		<property name="text" value="Turn your wounds into wisdom" />
 		<property name="info" value="https://www.twitch.tv" />
 	</bean>
 
 	<bean id="shout18" class="acme.entities.shouts.Shout">
-		<property name="moment" value="2021/09/04 06:00" />
+		<property name="moment" value="2021/12/04 06:00" />
 		<property name="author" value="Memphis Deway" />
 		<property name="text"
 			value="There are no shortcuts to any place worth going" />
@@ -222,21 +222,21 @@
 	</bean>
 
 	<bean id="shout19" class="acme.entities.shouts.Shout">
-		<property name="moment" value="2021/09/04 09:00" />
+		<property name="moment" value="2021/12/04 09:00" />
 		<property name="author" value="Paul Walker" />
 		<property name="text" value="Enthusiasm moves the world" />
 		<property name="info" value="https://www.twitter.com" />
 	</bean>
 
 	<bean id="shout20" class="acme.entities.shouts.Shout">
-		<property name="moment" value="2021/09/04 00:00" />
+		<property name="moment" value="2021/12/05 00:00" />
 		<property name="author" value="Max Smith" />
 		<property name="text" value="Light tomorrow with today!" />
 		<property name="info" value="https://www.telegram.com" />
 	</bean>
 
 	<bean id="shout21" class="acme.entities.shouts.Shout">
-		<property name="moment" value="2021/09/04 06:00" />
+		<property name="moment" value="2021/12/03 06:00" />
 		<property name="author" value="Ben Davies" />
 		<property name="text"
 			value="You cannot have a positive life and a negative mind" />
@@ -244,28 +244,28 @@
 	</bean>
 
 	<bean id="shout22" class="acme.entities.shouts.Shout">
-		<property name="moment" value="2021/09/04 00:00" />
+		<property name="moment" value="2021/12/03 00:00" />
 		<property name="author" value="Harry Kent" />
 		<property name="text" value="Laugh as much as you breathe!" />
 		<property name="info" value="https://www.facebook.com.com" />
 	</bean>
 
 	<bean id="shout23" class="acme.entities.shouts.Shout">
-		<property name="moment" value="2021/09/04 02:00" />
+		<property name="moment" value="2021/12/04 02:00" />
 		<property name="author" value="Ken Davies" />
 		<property name="text" value="Just turning!" />
 		<property name="info" value="https://zoom.us" />
 	</bean>
 
 	<bean id="shout24" class="acme.entities.shouts.Shout">
-		<property name="moment" value="2021/09/04 04:00" />
+		<property name="moment" value="2021/12/04 04:00" />
 		<property name="author" value="Barry Foster" />
 		<property name="text" value="With pain comes strength!" />
 		<property name="info" value="https://www.reddit.com" />
 	</bean>
 
 	<bean id="shout25" class="acme.entities.shouts.Shout">
-		<property name="moment" value="2021/09/04 06:00" />
+		<property name="moment" value="2021/12/03 06:00" />
 		<property name="author" value="Peter Bean" />
 		<property name="text"
 			value="With love and patience, nothing is impossible" />
@@ -273,7 +273,7 @@
 	</bean>
 
 	<bean id="shout26" class="acme.entities.shouts.Shout">
-		<property name="moment" value="2021/09/04 07:00" />
+		<property name="moment" value="2021/12/04 07:00" />
 		<property name="author" value="Jacket Max" />
 		<property name="text"
 			value="Be the change you want to see in the world" />
@@ -281,7 +281,7 @@
 	</bean>
 
 	<bean id="shout27" class="acme.entities.shouts.Shout">
-		<property name="moment" value="2021/09/04 00:00" />
+		<property name="moment" value="2021/12/02 00:00" />
 		<property name="author" value="Chris Welbeck" />
 		<property name="text"
 			value="Only do what your heart tells you!" />
@@ -289,7 +289,7 @@
 	</bean>
 
 	<bean id="shout28" class="acme.entities.shouts.Shout">
-		<property name="moment" value="2021/09/04 00:00" />
+		<property name="moment" value="2021/12/01 00:00" />
 		<property name="author" value="Sarah Bent" />
 		<property name="text"
 			value="A goal is a dream with a deadline" />
@@ -298,14 +298,14 @@
 
 	<bean id="shout29" class="acme.entities.shouts.Shout">
 
-		<property name="moment" value="2021/09/04 00:00" />
+		<property name="moment" value="2021/12/05 00:10" />
 		<property name="author" value="Patrick Foden" />
 		<property name="text" value="Who seeks shall find" />
 		<property name="info" value="https://es.aliexpress.com" />
 	</bean>
 
 	<bean id="shout30" class="acme.entities.shouts.Shout">
-		<property name="moment" value="2021/09/04 05:00" />
+		<property name="moment" value="2021/12/03 05:00" />
 
 		<property name="author" value="Mark Kent" />
 		<property name="text"
@@ -477,9 +477,9 @@
 		<property name="userAccount" ref="officer6UserAccount" />
 	</bean>
 
-	<!-- Tasks -->
+	<!-- Duties -->
 
-	<bean id="task01" class="acme.entities.tasks.Task">
+	<bean id="duty01" class="acme.entities.duties.Duty">
 		<property name="title" value="Political" />
 		<property name="description"
 			value="the implementation of these policies is not an easy task" />
@@ -490,7 +490,7 @@
 		<property name="officer" ref="officer1Employer" />
 	</bean>
 
-	<bean id="task02" class="acme.entities.tasks.Task">
+	<bean id="duty02" class="acme.entities.duties.Duty">
 		<property name="title" value="Work" />
 		<property name="description"
 			value="This facilitates the task when you work with many files" />
@@ -501,7 +501,7 @@
 		<property name="officer" ref="officer2Employer" />
 	</bean>
 
-	<bean id="task03" class="acme.entities.tasks.Task">
+	<bean id="duty03" class="acme.entities.duties.Duty">
 		<property name="title" value="Political" />
 		<property name="description"
 			value="Each institution should have a specific task in the process" />
@@ -513,7 +513,7 @@
 		<property name="officer" ref="officer3Employer" />
 	</bean>
 
-	<bean id="task04" class="acme.entities.tasks.Task">
+	<bean id="duty04" class="acme.entities.duties.Duty">
 		<property name="title" value="Life" />
 		<property name="description"
 			value="On the contrary, it is a task of everyday life." />
@@ -524,7 +524,7 @@
 		<property name="officer" ref="officer4Employer" />
 	</bean>
 
-	<bean id="task05" class="acme.entities.tasks.Task">
+	<bean id="duty05" class="acme.entities.duties.Duty">
 		<property name="title" value="Political" />
 		<property name="description"
 			value="Our task is to create the mechanism of a new order" />
@@ -535,7 +535,7 @@
 		<property name="officer" ref="officer5Employer" />
 	</bean>
 
-	<bean id="task06" class="acme.entities.tasks.Task">
+	<bean id="duty06" class="acme.entities.duties.Duty">
 		<property name="title" value="Work" />
 		<property name="description"
 			value="Our first task is to understand what your business requires" />
@@ -546,7 +546,7 @@
 		<property name="officer" ref="officer1Employer" />
 	</bean>
 
-	<bean id="task07" class="acme.entities.tasks.Task">
+	<bean id="duty07" class="acme.entities.duties.Duty">
 		<property name="title" value="Political" />
 		<property name="description"
 			value="The task of preparing for earthquakes and tsunamis is challenging" />
@@ -557,7 +557,7 @@
 		<property name="officer" ref="officer2Employer" />
 	</bean>
 
-	<bean id="task08" class="acme.entities.tasks.Task">
+	<bean id="duty08" class="acme.entities.duties.Duty">
 		<property name="title" value="Notification" />
 		<property name="description"
 			value="When creating a task, you can send an SMS notification" />
@@ -568,7 +568,7 @@
 		<property name="officer" ref="officer3Employer" />
 	</bean>
 
-	<bean id="task09" class="acme.entities.tasks.Task">
+	<bean id="duty09" class="acme.entities.duties.Duty">
 		<property name="title" value="Life" />
 		<property name="description"
 			value="This task connects directly with the quality of our spiritual life" />
@@ -579,7 +579,7 @@
 		<property name="officer" ref="officer4Employer" />
 	</bean>
 
-	<bean id="task10" class="acme.entities.tasks.Task">
+	<bean id="duty10" class="acme.entities.duties.Duty">
 		<property name="title" value="Political" />
 		<property name="description"
 			value="Without such partnership, UNAMSIL would not have accomplished its task" />
@@ -590,7 +590,7 @@
 		<property name="officer" ref="officer5Employer" />
 	</bean>
 
-	<bean id="task11" class="acme.entities.tasks.Task">
+	<bean id="duty11" class="acme.entities.duties.Duty">
 		<property name="title" value="Political" />
 		<property name="description"
 			value="Dialogue is not only the task of experts and professionals" />
@@ -601,7 +601,7 @@
 		<property name="officer" ref="officer1Employer" />
 	</bean>
 
-	<bean id="task12" class="acme.entities.tasks.Task">
+	<bean id="duty12" class="acme.entities.duties.Duty">
 		<property name="title" value="Political" />
 		<property name="description"
 			value="Member States have recognized the importance of that task" />
@@ -612,139 +612,139 @@
 		<property name="officer" ref="officer2Employer" />
 	</bean>
 
-	<bean id="task13" class="acme.entities.tasks.Task">
+	<bean id="duty13" class="acme.entities.duties.Duty">
 		<property name="title" value="Life" />
 		<property name="description"
 			value="Thus one can link two tasks, the spiritual and the physical" />
 		<property name="start" value="2021/10/15 02:00" />
-		<property name="end" value="2021/10/16 01:00" />
+		<property name="end" value="2021/12/26 01:00" />
 		<property name="publica" value="true" />
-		<property name="workload" value="10.00" />
+		<property name="workload" value="35.00" />
 		<property name="officer" ref="officer3Employer" />
 	</bean>
 
-	<bean id="task14" class="acme.entities.tasks.Task">
+	<bean id="duty14" class="acme.entities.duties.Duty">
 		<property name="title" value="Political" />
 		<property name="description"
 			value="Their appointment, roles and tasks should be clearly determined" />
 		<property name="start" value="2021/10/18 00:00" />
-		<property name="end" value="2021/10/21 04:00" />
+		<property name="end" value="2021/12/28 04:00" />
 		<property name="publica" value="true" />
 		<property name="workload" value="50.40" />
 		<property name="officer" ref="officer4Employer" />
 	</bean>
 
-	<bean id="task15" class="acme.entities.tasks.Task">
+	<bean id="duty15" class="acme.entities.duties.Duty">
 		<property name="title" value="Political" />
 		<property name="description"
 			value="The free status relates to the tasks of local governments" />
 		<property name="start" value="2021/10/23 06:00" />
-		<property name="end" value="2021/10/24 10:00" />
+		<property name="end" value="2021/12/29 10:00" />
 		<property name="publica" value="true" />
-		<property name="workload" value="10.30" />
+		<property name="workload" value="48.30" />
 		<property name="officer" ref="officer5Employer" />
 	</bean>
 
-	<bean id="task16" class="acme.entities.tasks.Task">
+	<bean id="duty16" class="acme.entities.duties.Duty">
 		<property name="title" value="Work" />
 		<property name="description"
 			value="The free status relates to the tasks of local governments" />
 		<property name="start" value="2021/11/02 02:00" />
-		<property name="end" value="2021/11/03 04:00" />
+		<property name="end" value="2021/12/25 04:00" />
 		<property name="publica" value="true" />
-		<property name="workload" value="26.00" />
+		<property name="workload" value="68.00" />
 		<property name="officer" ref="officer1Employer" />
 	</bean>
 
-	<bean id="task17" class="acme.entities.tasks.Task">
+	<bean id="duty17" class="acme.entities.duties.Duty">
 		<property name="title" value="Work" />
 		<property name="description"
 			value="Each department has its own rules, daily tasks, milestones and goals" />
 		<property name="start" value="2021/11/05 09:00" />
-		<property name="end" value="2021/11/06 11:00" />
+		<property name="end" value="2021/12/25 11:00" />
 		<property name="publica" value="true" />
-		<property name="workload" value="16.15" />
+		<property name="workload" value="75.15" />
 		<property name="officer" ref="officer2Employer" />
 	</bean>
 
-	<bean id="task18" class="acme.entities.tasks.Task">
+	<bean id="duty18" class="acme.entities.duties.Duty">
 		<property name="title" value="Political" />
 		<property name="description"
 			value="Duties and tasks of the laboratories participating in the consortium" />
 		<property name="start" value="2021/11/13 03:00" />
-		<property name="end" value="2021/11/14 07:00" />
+		<property name="end" value="2021/12/24 07:00" />
 		<property name="publica" value="true" />
-		<property name="workload" value="28.00" />
+		<property name="workload" value="72.00" />
 		<property name="officer" ref="officer3Employer" />
 	</bean>
 
-	<bean id="task19" class="acme.entities.tasks.Task">
+	<bean id="duty19" class="acme.entities.duties.Duty">
 		<property name="title" value="Political" />
 		<property name="description"
 			value="These tasks had been temporarily assigned to military observers" />
 		<property name="start" value="2021/08/14 06:00" />
-		<property name="end" value="2021/08/16 11:00" />
+		<property name="end" value="2021/12/25 11:00" />
 		<property name="publica" value="true" />
 		<property name="workload" value="34.00" />
 		<property name="officer" ref="officer4Employer" />
 	</bean>
 
-	<bean id="task20" class="acme.entities.tasks.Task">
+	<bean id="duty20" class="acme.entities.duties.Duty">
 		<property name="title" value="Political" />
 		<property name="description"
 			value="The fundamental importance of the democratic slogans and tasks" />
 		<property name="start" value="2021/08/17 00:00" />
-		<property name="end" value="2021/08/19 00:00" />
+		<property name="end" value="2021/12/27 00:00" />
 		<property name="publica" value="true" />
-		<property name="workload" value="16.00" />
+		<property name="workload" value="45.00" />
 		<property name="officer" ref="officer5Employer" />
 	</bean>
 
-	<bean id="task21" class="acme.entities.tasks.Task">
+	<bean id="duty21" class="acme.entities.duties.Duty">
 		<property name="title" value="Political" />
 		<property name="description"
 			value="One of the main tasks of the Board is protection" />
 		<property name="start" value="2021/08/20 02:00" />
-		<property name="end" value="2021/08/21 07:00" />
+		<property name="end" value="2021/12/21 07:00" />
 		<property name="publica" value="true" />
-		<property name="workload" value="10.25" />
+		<property name="workload" value="48.25" />
 		<property name="officer" ref="officer1Employer" />
 	</bean>
 
-	<bean id="task22" class="acme.entities.tasks.Task">
+	<bean id="duty22" class="acme.entities.duties.Duty">
 		<property name="title" value="Work" />
 		<property name="description"
 			value="Each member of the team should have clear responsibilities" />
 		<property name="start" value="2021/08/22 05:00" />
-		<property name="end" value="2021/08/23 11:00" />
+		<property name="end" value="2021/12/23 11:00" />
 		<property name="publica" value="true" />
-		<property name="workload" value="08.20" />
+		<property name="workload" value="56.20" />
 		<property name="officer" ref="officer2Employer" />
 	</bean>
 
-	<bean id="task23" class="acme.entities.tasks.Task">
+	<bean id="duty23" class="acme.entities.duties.Duty">
 		<property name="title" value="Work" />
 		<property name="description"
 			value="At present, our development tasks have become more pressing" />
 		<property name="start" value="2021/08/24 00:00" />
-		<property name="end" value="2021/08/25 10:00" />
+		<property name="end" value="2021/12/25 10:00" />
 		<property name="publica" value="true" />
-		<property name="workload" value="12.00" />
+		<property name="workload" value="64.00" />
 		<property name="officer" ref="officer3Employer" />
 	</bean>
 
-	<bean id="task24" class="acme.entities.tasks.Task">
+	<bean id="duty24" class="acme.entities.duties.Duty">
 		<property name="title" value="Political" />
 		<property name="description"
 			value="Overcoming poverty is one of its priority tasks" />
 		<property name="start" value="2021/08/26 05:00" />
-		<property name="end" value="2021/08/27 11:00" />
+		<property name="end" value="2021/12/27 11:00" />
 		<property name="publica" value="true" />
-		<property name="workload" value="13.00" />
+		<property name="workload" value="62.00" />
 		<property name="officer" ref="officer4Employer" />
 	</bean>
 
-	<bean id="task25" class="acme.entities.tasks.Task">
+	<bean id="duty25" class="acme.entities.duties.Duty">
 		<property name="title" value="Work" />
 		<property name="description"
 			value="The Commission shall be responsible for carrying out the following tasks" />
@@ -755,7 +755,7 @@
 		<property name="officer" ref="officer5Employer" />
 	</bean>
 
-	<bean id="task26" class="acme.entities.tasks.Task">
+	<bean id="duty26" class="acme.entities.duties.Duty">
 		<property name="title" value="Work" />
 		<property name="description"
 			value="Review the list of tasks you made for the week" />
@@ -766,7 +766,7 @@
 		<property name="officer" ref="officer1Employer" />
 	</bean>
 
-	<bean id="task27" class="acme.entities.tasks.Task">
+	<bean id="duty27" class="acme.entities.duties.Duty">
 		<property name="title" value="Political" />
 		<property name="description"
 			value="The next presidency will face a number of difficult tasks" />
@@ -777,7 +777,7 @@
 		<property name="officer" ref="officer2Employer" />
 	</bean>
 
-	<bean id="task28" class="acme.entities.tasks.Task">
+	<bean id="duty28" class="acme.entities.duties.Duty">
 		<property name="title" value="Work" />
 		<property name="description"
 			value="This allows them to carry out all sorts of important tasks" />
@@ -788,7 +788,7 @@
 		<property name="officer" ref="officer3Employer" />
 	</bean>
 
-	<bean id="task29" class="acme.entities.tasks.Task">
+	<bean id="duty29" class="acme.entities.duties.Duty">
 		<property name="title" value="Political" />
 		<property name="description"
 			value="History has prepared our party for various tasks" />
@@ -799,7 +799,7 @@
 		<property name="officer" ref="officer4Employer" />
 	</bean>
 
-	<bean id="task30" class="acme.entities.tasks.Task">
+	<bean id="duty30" class="acme.entities.duties.Duty">
 		<property name="title" value="Work" />
 		<property name="description"
 			value="This will definitely speed up your daily and repetitive tasks" />
@@ -810,7 +810,7 @@
 		<property name="officer" ref="officer5Employer" />
 	</bean>
 
-	<bean id="task31" class="acme.entities.tasks.Task">
+	<bean id="duty31" class="acme.entities.duties.Duty">
 		<property name="title" value="Work" />
 		<property name="description"
 			value="Different products require a different combination of tasks" />
@@ -821,7 +821,7 @@
 		<property name="officer" ref="officer1Employer" />
 	</bean>
 
-	<bean id="task32" class="acme.entities.tasks.Task">
+	<bean id="duty32" class="acme.entities.duties.Duty">
 		<property name="title" value="Political" />
 		<property name="description"
 			value="The national authorities may delegate tasks to other bodies" />
@@ -832,177 +832,177 @@
 		<property name="officer" ref="officer2Employer" />
 	</bean>
 
-	<bean id="task33" class="acme.entities.tasks.Task">
+	<bean id="duty33" class="acme.entities.duties.Duty">
 		<property name="title" value="Work" />
 		<property name="description"
 			value="The transport associated to the maintenance tasks should also be considered" />
-		<property name="start" value="2021/12/01 07:00" />
-		<property name="end" value="2021/12/02 09:00" />
+		<property name="start" value="2021/10/01 07:00" />
+		<property name="end" value="2021/11/02 09:00" />
 		<property name="publica" value="false" />
 		<property name="workload" value="12.00" />
 		<property name="officer" ref="officer3Employer" />
 	</bean>
 
-	<bean id="task34" class="acme.entities.tasks.Task">
+	<bean id="duty34" class="acme.entities.duties.Duty">
 		<property name="title" value="Work" />
 		<property name="description"
 			value="Specification of the main functions and tasks of the intermediate bodies" />
-		<property name="start" value="2021/12/03 07:00" />
-		<property name="end" value="2021/12/04 11:00" />
+		<property name="start" value="2021/10/03 07:00" />
+		<property name="end" value="2021/11/04 11:00" />
 		<property name="publica" value="false" />
 		<property name="workload" value="20.00" />
 		<property name="officer" ref="officer4Employer" />
 	</bean>
 
-	<bean id="task35" class="acme.entities.tasks.Task">
+	<bean id="duty35" class="acme.entities.duties.Duty">
 		<property name="title" value="Political" />
 		<property name="description"
 			value="Yet there are European tasks that can be tackled together" />
-		<property name="start" value="2021/12/05 10:00" />
-		<property name="end" value="2021/12/06 12:00" />
+		<property name="start" value="2021/10/05 10:00" />
+		<property name="end" value="2021/11/06 12:00" />
 		<property name="publica" value="false" />
 		<property name="workload" value="13.00" />
 		<property name="officer" ref="officer5Employer" />
 	</bean>
 
-	<bean id="task36" class="acme.entities.tasks.Task">
+	<bean id="duty36" class="acme.entities.duties.Duty">
 		<property name="title" value="Work" />
 		<property name="description"
 			value="Estimate what is going to cost to train the tasks" />
-		<property name="start" value="2021/12/07 05:00" />
-		<property name="end" value="2021/12/08 09:00" />
+		<property name="start" value="2021/10/07 05:00" />
+		<property name="end" value="2021/11/08 09:00" />
 		<property name="publica" value="false" />
 		<property name="workload" value="15.00" />
 		<property name="officer" ref="officer1Employer" />
 	</bean>
 
-	<bean id="task37" class="acme.entities.tasks.Task">
+	<bean id="duty37" class="acme.entities.duties.Duty">
 		<property name="title" value="Political" />
 		<property name="description"
 			value="Europol shall not apply coercive measures in carrying out its tasks" />
-		<property name="start" value="2021/12/09 07:00" />
-		<property name="end" value="2021/12/10 10:00" />
+		<property name="start" value="2021/07/09 07:00" />
+		<property name="end" value="2021/12/26 10:00" />
 		<property name="publica" value="false" />
 		<property name="workload" value="10.00" />
 		<property name="officer" ref="officer2Employer" />
 	</bean>
 
-	<bean id="task38" class="acme.entities.tasks.Task">
+	<bean id="duty38" class="acme.entities.duties.Duty">
 		<property name="title" value="Work" />
 		<property name="description"
 			value="Ask the supervisor to set a deadline for tasks" />
-		<property name="start" value="2021/12/11 10:00" />
-		<property name="end" value="2021/12/12 12:00" />
+		<property name="start" value="2021/07/11 10:00" />
+		<property name="end" value="2021/12/29 12:00" />
 		<property name="publica" value="false" />
 		<property name="workload" value="08.50" />
 		<property name="officer" ref="officer3Employer" />
 	</bean>
 
-	<bean id="task39" class="acme.entities.tasks.Task">
+	<bean id="duty39" class="acme.entities.duties.Duty">
 		<property name="title" value="Political" />
 		<property name="description"
 			value="That will be one of the first tasks of the Government" />
-		<property name="start" value="2021/12/13 06:00" />
-		<property name="end" value="2021/12/14 10:00" />
+		<property name="start" value="2021/09/13 06:00" />
+		<property name="end" value="2021/12/26 10:00" />
 		<property name="publica" value="false" />
 		<property name="workload" value="06.00" />
 		<property name="officer" ref="officer4Employer" />
 	</bean>
 
-	<bean id="task40" class="acme.entities.tasks.Task">
+	<bean id="duty40" class="acme.entities.duties.Duty">
 		<property name="title" value="Work" />
 		<property name="description"
 			value="Percentaje of the tasks which had to wait for resources" />
-		<property name="start" value="2021/12/15 00:00" />
-		<property name="end" value="2021/12/16 03:00" />
+		<property name="start" value="2021/09/15 00:00" />
+		<property name="end" value="2021/12/26 03:00" />
 		<property name="publica" value="false" />
 		<property name="workload" value="02.40" />
 		<property name="officer" ref="officer5Employer" />
 	</bean>
 
-	<bean id="task41" class="acme.entities.tasks.Task">
+	<bean id="duty41" class="acme.entities.duties.Duty">
 		<property name="title" value="Political" />
 		<property name="description"
 			value="The international community still has daunting tasks before it" />
-		<property name="start" value="2021/12/17 03:00" />
-		<property name="end" value="2021/12/18 07:00" />
+		<property name="start" value="2021/05/17 03:00" />
+		<property name="end" value="2021/12/28 07:00" />
 		<property name="publica" value="false" />
 		<property name="workload" value="05.00" />
 		<property name="officer" ref="officer1Employer" />
 	</bean>
 
-	<bean id="task42" class="acme.entities.tasks.Task">
+	<bean id="duty42" class="acme.entities.duties.Duty">
 		<property name="title" value="Life" />
 		<property name="description"
 			value="Alternate between activities or tasks to reduce the strain on your body" />
-		<property name="start" value="2021/12/19 06:00" />
-		<property name="end" value="2021/12/20 09:00" />
+		<property name="start" value="2021/07/19 06:00" />
+		<property name="end" value="2021/12/27 09:00" />
 		<property name="publica" value="false" />
 		<property name="workload" value="06.00" />
 		<property name="officer" ref="officer2Employer" />
 	</bean>
 
-	<bean id="task43" class="acme.entities.tasks.Task">
+	<bean id="duty43" class="acme.entities.duties.Duty">
 		<property name="title" value="Political" />
 		<property name="description"
 			value="Peace and development continue to be our primary tasks today" />
-		<property name="start" value="2021/12/21 00:00" />
-		<property name="end" value="2021/12/22 04:00" />
+		<property name="start" value="2021/08/21 00:00" />
+		<property name="end" value="2021/12/28 04:00" />
 		<property name="publica" value="false" />
 		<property name="workload" value="06.00" />
 		<property name="officer" ref="officer3Employer" />
 	</bean>
 
-	<bean id="task44" class="acme.entities.tasks.Task">
+	<bean id="duty44" class="acme.entities.duties.Duty">
 		<property name="title" value="Political" />
 		<property name="description"
 			value="Body or bodies designated to carry out control tasks" />
-		<property name="start" value="2021/12/23 02:00" />
-		<property name="end" value="2021/12/24 07:00" />
+		<property name="start" value="2021/07/23 02:00" />
+		<property name="end" value="2021/12/29 07:00" />
 		<property name="publica" value="false" />
 		<property name="workload" value="09.00" />
 		<property name="officer" ref="officer4Employer" />
 	</bean>
 
-	<bean id="task45" class="acme.entities.tasks.Task">
+	<bean id="duty45" class="acme.entities.duties.Duty">
 		<property name="title" value="Political" />
 		<property name="description"
 			value="Body or bodies carrying out control and audit tasks" />
-		<property name="start" value="2021/12/25 05:00" />
+		<property name="start" value="2021/07/25 05:00" />
 		<property name="end" value="2021/12/26 08:00" />
 		<property name="publica" value="false" />
 		<property name="workload" value="12.40" />
 		<property name="officer" ref="officer5Employer" />
 	</bean>
 
-	<bean id="task46" class="acme.entities.tasks.Task">
+	<bean id="duty46" class="acme.entities.duties.Duty">
 		<property name="title" value="Political" />
 		<property name="description"
 			value="As a result of the Treaty of Lisbon, we now have additional tasks" />
-		<property name="start" value="2021/12/27 07:00" />
+		<property name="start" value="2021/08/27 07:00" />
 		<property name="end" value="2021/12/28 10:00" />
 		<property name="publica" value="false" />
 		<property name="workload" value="13.15" />
 		<property name="officer" ref="officer1Employer" />
 	</bean>
 
-	<bean id="task47" class="acme.entities.tasks.Task">
+	<bean id="duty47" class="acme.entities.duties.Duty">
 		<property name="title" value="Political" />
 		<property name="description"
 			value="The goal is to fulfil all the tasks of the sectoral policy" />
-		<property name="start" value="2021/12/29 05:00" />
+		<property name="start" value="2021/10/29 05:00" />
 		<property name="end" value="2021/12/30 07:00" />
 		<property name="publica" value="false" />
 		<property name="workload" value="05.00" />
 		<property name="officer" ref="officer2Employer" />
 	</bean>
 
-	<bean id="task48" class="acme.entities.tasks.Task">
+	<bean id="duty48" class="acme.entities.duties.Duty">
 		<property name="title" value="Work" />
 		<property name="description"
 			value="Some of these new tasks require additional resources" />
 		<property name="start" value="2021/08/29 09:00" />
-		<property name="end" value="2021/08/30 12:00" />
+		<property name="end" value="2021/12/30 12:00" />
 		<property name="publica" value="false" />
 		<property name="workload" value="13.00" />
 		<property name="officer" ref="officer3Employer" />

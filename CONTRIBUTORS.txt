@@ -8,8 +8,6 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-- Francisco José Anillo Carrasco (fraanicar@alum.us.es)
+- Álvaro Alcón Granado (alvalcgra@alum.us.es)
 - Daniel Dorante Sánchez (dandorsan@alum.us.es)
 - Eugenio Benito Vicente Vázquez (eugvicvaz@alum.us.es)
-- Jesús Viera Vázquez (vvjesus32@gmail.com)
-- Álvaro Alcón Granado (alvalcgra@alum.us.es)

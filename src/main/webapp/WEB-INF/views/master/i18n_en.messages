@@ -16,7 +16,7 @@ master.banner.background = #FFE97F
 
 master.welcome.title = Welcome!
 master.welcome.text = \
-	Welcome to Acme Work Plans! This is Acme Planner, which help the user to assign tasks and also make anonymous shouts.
+	Welcome to Acme Endeavours! This is Acme Endeavours, which help the user to assign duties and also make anonymous shouts.
 
 # master.menu #################################################################
 
@@ -42,7 +42,6 @@ master.menu.administrator.user-accounts = User accounts
 master.menu.administrator.populate-initial = Populate DB (initial)
 master.menu.administrator.populate-sample = Populate DB (samples)
 master.menu.administrator.shutdown = Shut down
-master.menu.administrator.dashboard = Dashboard
 master.menu.administrator.spam = Censored words
 master.menu.administrator.threshold  = Word threshold
 master.menu.administrator.spam.list= List of censored words
@@ -93,10 +92,10 @@ master.footer.label.spanish = Spanish
 
 master.company.title = The company
 master.company.text = \
-	Acme Work Plans is a project \
+	Acme Endeavours is a project \
     for the subject Design and Tests, in the Degree \
     in Software Engineering from the University of Seville.
-master.company.name = Acme-Work-Plans
+master.company.name = Acme-Endeavours
 master.company.address = Reina Mercedes, Nº10, Sevilla, España
 master.company.phone = +34 123 456 789
 master.company.email = contact@acme.com
@@ -123,4 +122,3 @@ master.panic.label.request = Request:
 master.panic.label.status = Status:
 master.panic.label.exceptions = Exceptions:
 master.panic.text.consult-log = Please, consult the log to see them full stack trace.
-
