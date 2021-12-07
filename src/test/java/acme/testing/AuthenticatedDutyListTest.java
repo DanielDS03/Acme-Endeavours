@@ -5,7 +5,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
 
-public class AuthenticatedTaskListTest extends AcmePlannerTest {
+public class AuthenticatedDutyListTest extends AcmePlannerTest {
 	
 	//Este método prueba que se liste bien las tareas estando autenticado
 		

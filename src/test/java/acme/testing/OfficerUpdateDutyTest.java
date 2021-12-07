@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Order;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
-public class OfficerUpdateTaskTest extends AcmePlannerTest {
+public class OfficerUpdateDutyTest extends AcmePlannerTest {
 	//Este metodo prueba que se crea correctamente una task del Officer con los datos pertinentes
 	@ParameterizedTest
 	@CsvFileSource(resources = "/officer/update-positive.csv", encoding = "utf-8", numLinesToSkip = 1)

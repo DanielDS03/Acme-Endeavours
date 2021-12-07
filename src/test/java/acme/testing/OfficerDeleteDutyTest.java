@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Order;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
-public class OfficerDeleteTaskTest extends AcmePlannerTest {
+public class OfficerDeleteDutyTest extends AcmePlannerTest {
 	//Este metodo prueba que se crea correctamente una task del officer con los datos pertinentes
 	@ParameterizedTest
 	@CsvFileSource(resources = "/officer/delete.csv", encoding = "utf-8", numLinesToSkip = 1)
@@ -37,7 +37,7 @@ public class OfficerDeleteTaskTest extends AcmePlannerTest {
 	@ParameterizedTest
 	@CsvFileSource(resources = "/officer/deleteNegative.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(10)
-	public void deleteTasksNegativeOfficer(final int recordIndex, final String title, final String description,final String workload,final String start, final String end, final String link) {		
+	public void deleteDutiesNegativeOfficer(final int recordIndex, final String title, final String description,final String workload,final String start, final String end, final String link) {		
 
 		// Se logea con el usuario officer
 		super.signIn("officer2", "officer2");

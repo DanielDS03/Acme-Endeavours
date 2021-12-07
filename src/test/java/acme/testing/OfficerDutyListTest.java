@@ -5,12 +5,12 @@ import org.junit.jupiter.api.Order;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
-public class OfficerTaskListTest extends AcmePlannerTest {
+public class OfficerDutyListTest extends AcmePlannerTest {
 
 	@ParameterizedTest
 	@CsvFileSource(resources = "/officer/task.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(20)
-	public void OfficerTaskList(final int recordIndex, final String title, final String workload, final String description, final String start, final String end, final String link) {
+	public void OfficerDutyList(final int recordIndex, final String title, final String workload, final String description, final String start, final String end, final String link) {
 
 		super.signIn("officer1", "officer1");
 		super.clickOnMenu("Officer", "My Tasks");

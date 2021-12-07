@@ -4,12 +4,12 @@ import org.junit.jupiter.api.Order;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
-public class AnonymousTaskTest extends AcmePlannerTest{
+public class AnonymousDutyTest extends AcmePlannerTest{
 	//Este metodo prueba que se muestran bien todas las task
 	@ParameterizedTest
 	@CsvFileSource(resources = "/anonymous/task/list.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(20)	
-	public void AnonymousTaskListPositive(final int recordIndex, final String title, 
+	public void AnonymousDutyListPositive(final int recordIndex, final String title, 
 		final String workload,final String description,final String start,final String end) {		
 				
 		super.clickOnMenu("Anonymous", "My tasks");		
