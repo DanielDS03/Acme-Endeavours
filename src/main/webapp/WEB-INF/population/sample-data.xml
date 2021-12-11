@@ -345,7 +345,7 @@
 	<bean name="officer2UserAccount"
 		class="acme.framework.entities.UserAccount">
 		<property name="username" value="officer2" />
-		<property name="password" value="Officer2" />
+		<property name="password" value="officer2" />
 		<property name="enabled" value="true" />
 		<property name="identity">
 			<bean class="acme.datatypes.UserIdentity">

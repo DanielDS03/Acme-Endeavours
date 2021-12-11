@@ -5,14 +5,15 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
 public class OfficerDeleteDutyTest extends AcmePlannerTest {
-	//Este metodo prueba que se crea correctamente una task del officer con los datos pertinentes
+	
+	
 	@ParameterizedTest
 	@CsvFileSource(resources = "/officer/delete.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(20)	
-	public void deletePositive(final int recordIndex, final String title, final String description,final String workload,final String start, final String end, final String link) {		
+	public void deleteDuties(final int recordIndex, final String title,final String workload,final String description,final String start, final String end, final String link) {		
 		
 		super.signIn("officer5", "officer5");
-		super.clickOnMenu("Officer", "My Tasks");	
+		super.clickOnMenu("Officer", "My Duties");	
 		
 		// Checkea que se cumple que las columnas coinciden con los valores que indicamos
 		super.checkColumnHasValue(recordIndex, 0, title);
@@ -43,7 +44,7 @@ public class OfficerDeleteDutyTest extends AcmePlannerTest {
 		super.signIn("officer2", "officer2");
 
 		// Clica en el menú para acceder a las tareas del officer
-		this.driver.get("localhost:8080/Acme-Work-Plans/officer/task/delete?id=20");
+		this.driver.get("localhost:8080/Acme-Endeavours/officer/duty/delete?id=76");
 		
 		super.checkPanicExists();
 		
