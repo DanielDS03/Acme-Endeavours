@@ -10,11 +10,11 @@ public class AuthenticatedDutyListTest extends AcmePlannerTest {
 	//Este método prueba que se liste bien las tareas estando autenticado
 		
 	@ParameterizedTest
-	@CsvFileSource(resources = "/authenticated/task.csv", encoding = "utf-8", numLinesToSkip = 1)
+	@CsvFileSource(resources = "/authenticated/duty.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(20)	
 	public void listPositive(final int recordIndex, final String title, final String description , final String start, final String end,final String workload) {		
-		super.signIn("manag1", "manag1");
-		super.clickOnMenu("Authenticated", "Tasks");		
+		super.signIn("officer1", "officer1");
+		super.clickOnMenu("Authenticated", "Duties");		
 		
 		
 		super.checkColumnHasValue(recordIndex, 0, title);

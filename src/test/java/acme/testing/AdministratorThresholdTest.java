@@ -13,12 +13,12 @@ public class AdministratorThresholdTest extends AcmePlannerTest {
 		final String start, final String end, final String link) {
 		
 		super.signIn("administrator", "administrator");
-		super.clickOnMenu("Account", "Become a manager");
+		super.clickOnMenu("Account", "Become a officer");
 		super.clickOnSubmitButton("Register");
 		super.clickOnMenu("Administrator", "Word threshold");
 		super.fillInputBoxIn("thresholdword", length);
 		super.clickOnSubmitButton("Add");
-		super.clickOnMenu("Manager", "Create Task");
+		super.clickOnMenu("Officer", "Create Duty");
 		super.fillInputBoxIn("title", title);
 		super.fillInputBoxIn("description", description);
 		super.fillInputBoxIn("workload",workload);
@@ -42,9 +42,9 @@ public class AdministratorThresholdTest extends AcmePlannerTest {
 		super.clickOnMenu("Administrator", "Word threshold");
 		super.fillInputBoxIn("thresholdword", length);
 		super.clickOnSubmitButton("Add");
-		super.clickOnMenu("Account", "Become a manager");
+		super.clickOnMenu("Account", "Become a officer");
 		super.clickOnSubmitButton("Register");
-		super.clickOnMenu("Manager", "Create Task");
+		super.clickOnMenu("Officer", "Create Duty");
 		super.fillInputBoxIn("title", title);
 		super.fillInputBoxIn("description", description);
 		super.fillInputBoxIn("workload",workload);

@@ -12,7 +12,7 @@ public class OfficerUpdateDutyTest extends AcmePlannerTest {
 	public void updatePositive(final int recordIndex, final String title, final String description,final String workload,final String start, final String end, final String link) {		
 		
 		super.signIn("officer5", "officer5");
-		super.clickOnMenu("Officer", "My Tasks");	
+		super.clickOnMenu("Officer", "My Duties");	
 		
 		super.clickOnListingRecord(recordIndex);
 		
@@ -42,7 +42,7 @@ public class OfficerUpdateDutyTest extends AcmePlannerTest {
 	public void updateNegative(final int recordIndex, final String title, final String description,final String workload,final String start, final String end, final String link) {
 		
 		super.signIn("officer5", "officer5");
-		super.clickOnMenu("Officer", "My Tasks");
+		super.clickOnMenu("Officer", "My Duties");
 		
 		super.clickOnListingRecord(recordIndex);
 		

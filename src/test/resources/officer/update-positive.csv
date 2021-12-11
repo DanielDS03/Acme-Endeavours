@@ -1,5 +1,5 @@
 recordIndex,title,description,workload,start,end,link
-0,Task worker,Description of the task 1,3.50,2021/10/23 06:00,2022/10/24 06:00,http://example.org
-1,Task 2,Description of the task 2 update,9.59,2021/11/20 07:00,2022/11/24 07:00,http://example.org
-4,Task 4,Description of the task 4,12.50,2021/10/25 04:00,2022/07/30 08:00,http://youtube.com
-5,Task 5,This task is so important,14.00,2021/10/12 12:00,2022/08/12 12:00,http://facebook.com
+0,Duty worker,Description of the duty 1,3.50,2021/12/28 06:00,2022/10/24 06:00,http://example.org
+1,Duty 2,Description of the duty 2 update,9.59,2021/12/29 07:00,2022/11/24 07:00,http://example.org
+2,Duty 4,Description of the duty 4,12.50,2021/12/30 04:00,2022/07/30 08:00,http://youtube.com
+3,Political,Yet there are European tasks that can be tackled together,13.00,2021/10/05 10:00,2021/11/06 12:00, 

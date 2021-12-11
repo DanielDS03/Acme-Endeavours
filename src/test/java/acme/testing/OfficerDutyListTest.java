@@ -8,12 +8,12 @@ import org.junit.jupiter.params.provider.CsvFileSource;
 public class OfficerDutyListTest extends AcmePlannerTest {
 
 	@ParameterizedTest
-	@CsvFileSource(resources = "/officer/task.csv", encoding = "utf-8", numLinesToSkip = 1)
+	@CsvFileSource(resources = "/officer/duty.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(20)
 	public void OfficerDutyList(final int recordIndex, final String title, final String workload, final String description, final String start, final String end, final String link) {
 
 		super.signIn("officer1", "officer1");
-		super.clickOnMenu("Officer", "My Tasks");
+		super.clickOnMenu("Officer", "My Duties");
 
 		super.checkColumnHasValue(recordIndex, 0, title);
 		super.checkColumnHasValue(recordIndex, 1, workload);

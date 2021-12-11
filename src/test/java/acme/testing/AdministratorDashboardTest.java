@@ -11,16 +11,16 @@ public class AdministratorDashboardTest extends AcmePlannerTest {
 	@ParameterizedTest
 	@CsvFileSource(resources = "/administrator/dashboard/show.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(20)	
-	public void listDashboard(final String publicTask, final String privateTask, final String finishTask,
-		final String notFinishTask, final String minimumWorkload, final String maximumWorkload, final String averageWorkload, final String deviationWorkload,
+	public void listDashboard(final String publicDuty, final String privateDuty, final String finishDuty,
+		final String notFinishDuty, final String minimumWorkload, final String maximumWorkload, final String averageWorkload, final String deviationWorkload,
 		final String averageExecutionPeriods) {
 		super.signIn("administrator", "administrator");
 		super.clickOnMenu("Administrator", "Dashboard");		
 		
-		super.checkInputBoxHasValue("numberOfPublicTask", publicTask);
-		super.checkInputBoxHasValue("numberOfPrivateTask", privateTask);
-		super.checkInputBoxHasValue("numberOfFinishTask", finishTask);
-		super.checkInputBoxHasValue("numberOfNotFinishTask", notFinishTask);
+		super.checkInputBoxHasValue("numberOfPublicDuty", publicDuty);
+		super.checkInputBoxHasValue("numberOfPrivateDuty", privateDuty);
+		super.checkInputBoxHasValue("numberOfFinishDuty", finishDuty);
+		super.checkInputBoxHasValue("numberOfNotFinishDuty", notFinishDuty);
 		super.checkInputBoxHasValue("minimumWorkload", minimumWorkload);
 		super.checkInputBoxHasValue("maximumWorkload", maximumWorkload);
 		super.checkInputBoxHasValue("averageWorkload", averageWorkload);
