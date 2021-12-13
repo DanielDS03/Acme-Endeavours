@@ -14,7 +14,7 @@ officer.duty.list.label.start = Start
 officer.duty.list.label.end = End
 officer.duty.list.label.workload = Workload
 officer.duty.error.workload =Workload is not correct
-officer.duty.error.start =Start must be before end
+officer.duty.error.start =Start must be after now
 
 officer.duty.label.title = Title
 officer.duty.label.description = Description
@@ -22,6 +22,7 @@ officer.duty.start = Start
 officer.duty.end = End
 officer.duty.label.workload = Workload
 officer.duty.label.link=Link
+officer.duty.error.end=The end must be after the start
 
 officer.duty.label.publica=Public
 officer.duty.button.return=Return

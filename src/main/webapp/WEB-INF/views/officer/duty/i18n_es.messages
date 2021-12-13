@@ -14,13 +14,14 @@ officer.duty.list.label.start = Comienzo
 officer.duty.list.label.end = Finalizacion
 officer.duty.list.label.workload = Carga de trabajo
 officer.duty.error.workload =La carga de trabajo no es correcta
-officer.duty.error.start=La fecha final es anterior a la de comienzo
+officer.duty.error.start=La fecha y hora de inicio debe ser posterior a ahora
 
 officer.duty.label.title = Titulo
 officer.duty.label.description = Descripcion
 officer.duty.start = Fecha de inicio
 officer.duty.end = Fecha de fin
 officer.duty.label.workload = Carga de trabajo
+officer.duty.error.end = El fin debe ser posterior al inicio
 
 officer.duty.label.publica=Publica
 officer.duty.button.return= Volver
